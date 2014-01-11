@@ -530,6 +530,20 @@ body[id="helios"] .key_helper .command strong {
   min-width: 1.4em;
   text-align: left;
 }
+body[id="helios"] .key_helper .command:nth-child(2n+1) {
+  text-align: right;
+}
+body[id="helios"] .key_helper .command:nth-child(2n+1) strong {
+  text-align: right;
+  float: left;
+}
+body[id="helios"] .key_helper .command:nth-child(2n) {
+  text-align: left;
+}
+body[id="helios"] .key_helper .command:nth-child(2n) strong {
+  text-align: left;
+  float: right;
+}
 body[id="helios"] .key_helper #binding-helper-main {
   display: block;
   padding: 5px;

@@ -608,6 +608,22 @@ body[id="helios"] {
 				min-width: 1.4em;
 				text-align: left;
 			}
+
+			&:nth-child(2n+1) {
+				text-align: right;
+				strong {
+					text-align: right;
+					float: left
+				}
+			}
+
+			&:nth-child(2n) {
+				text-align: left;
+				strong {
+					text-align: left;
+					float: right
+				}
+			}
 		}
 
 		#binding-helper-main {
